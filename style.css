@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(214, 214,214)
+}
+.container{
+    width:250px;
+    height:450px;
+    margin: 80px auto;
+    border-radius:10px;
+    background-color:rgb(214, 214,214) ;
+    box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #fff;
+}
+.cal-form{
+    width:200px;
+    margin:20px auto;
+}
+#display{
+    width:85%;
+    border: none;
+    outline: none;
+    color:black;
+    text-align: right;
+    font-family:digit ;
+    padding:15px;
+    font-weight:600;
+    
+    margin:40px auto;
+    margin-bottom: 20px;
+    background-color: transparent;
+    box-shadow:inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    font-size:25px;
+}
+@font-face {
+    font-family:digit;
+    src: url(Calculator.ttf);
+}
+.button{
+    margin: 15px 0px 0px 4px;
+    width:42px;
+    height:42px;
+    border:none;
+    outline: none;
+    border-radius:5px;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+    background-color: rgb(214, 214,214);
+    font-size:16px;
+    font-weight:bold;
+}
+.cebtn{
+    color:#FFFFFF;
+    background-color:red;
+}
+.mtbutton{
+    color: #fff;
+    background-color:black;
+}
+.button:active{
+    box-shadow: 5px 5px 10px transparent, -5px -5px 10px transparent;
+}
+.md{
+    text-align: center;
+}
+#display::placeholder{
+    font-weight:100;
+}
+.sci{
+    
+   
+}
+.btn{
+    background-color:#DEDEDE;
+    border: none;
+    outline: none;
+    border :0px solid #C0C0C0;
+    padding: -20px;
+    border-radius: 15px;
+    margin-left:70%;
+    margin-top: 20px;
+    
+}
+.btn .tir{
+    transform: rotateY(180deg);
+    background-color: #EDE2A5;
+    display: inline-block;
+}
+.btn a{
+    text-decoration: none;
+    color:#756D41;
+    
+}
+.btn:hover .tir{
+    transform: rotateY(21780deg);
+    transition:20s;
+}
